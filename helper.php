@@ -1,9 +1,16 @@
 <?php
 
-const HOST = 'localhost';
-const USER = 'root';
-const PASS = '';
-const DB = 'db_catatanlist';
+function getConnection(){
+    
+    try{
+        $host = "localhost";
+        $port = 3306;
+        $database = "db_catatanlist";
+        $username = "root";
+        $password = "";
+        return new PDO("mysql:host=$host:$port;dbname=$database",$username,$password);
+    }catch(PDOException $exception){
+        echo "WADUH ERROR, NIH ERRORNYA : ".$exception->getMessage().PHP_EOL;
+    }
+}
 
-$db_connect = mysqli_connect(HOST,USER,PASS,DB) or die ('Unable connect');
-header('Content-Type: application/json');
