@@ -10,3 +10,5 @@ foreach($result as $row){
 
     echo "$id. $todo".PHP_EOL;
 }
+
+$connection = null;
