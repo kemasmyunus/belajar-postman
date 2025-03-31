@@ -48,3 +48,13 @@ pm.test("Status code harus 200", function () {
 });
 ```
 
+### 6️⃣ **Menyimpan dan Membagikan Koleksi API**
+- Gunakan fitur **Collections** untuk menyimpan dan mengatur request API.
+- Dapat diekspor dan dibagikan dengan tim.
+
+---
+
+## 🔹 Kesimpulan
+Postman adalah alat yang sangat berguna untuk menguji API dengan mudah. Dengan fitur-fitur seperti environment variables, automation testing, dan collections, Postman dapat membantu dalam pengembangan dan debugging API dengan lebih efisien.
+
+📌 **Selamat mencoba!** 🚀
