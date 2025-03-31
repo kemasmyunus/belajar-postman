@@ -11,3 +11,18 @@ Postman adalah alat yang digunakan untuk menguji API (Application Programming In
 - **Otomasi pengujian API** - Dapat digunakan untuk pengujian otomatis dengan skrip.
 
 ---
+
+## 🔹 Cara Menggunakan Postman
+
+### 1️⃣ **Menginstal Postman**
+- Unduh Postman dari situs resminya: [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+- Instal sesuai dengan sistem operasi yang digunakan (Windows, macOS, Linux).
+
+### 2️⃣ **Menjalankan Request API**
+1. **Buka Postman** dan pilih **"New Request"**.
+2. Pilih **metode HTTP** (GET, POST, PUT, DELETE, dll.).
+3. Masukkan **URL API** yang ingin diuji.
+4. (Opsional) Tambahkan **header**, **body**, atau **parameter** yang diperlukan.
+5. Klik **"Send"** untuk mengirim permintaan.
+6. Lihat respons API di bagian bawah.
+
