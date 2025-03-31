@@ -31,3 +31,8 @@ Postman adalah alat yang digunakan untuk menguji API (Application Programming In
 - **Params**: Menambahkan parameter ke URL API (misalnya, `?id=123` untuk permintaan GET).
 - **Body**: Digunakan dalam metode POST/PUT untuk mengirimkan data (JSON, form-data, dll.).
 
+### 4️⃣ **Menggunakan Environment Variables**
+- Klik ikon **"Manage Environments"**.
+- Buat environment baru dan tambahkan variabel (misalnya, `{{base_url}}` untuk menyimpan URL API utama).
+- Gunakan dalam request: `{{base_url}}/endpoint`.
+
