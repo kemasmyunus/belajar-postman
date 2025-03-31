@@ -26,3 +26,8 @@ Postman adalah alat yang digunakan untuk menguji API (Application Programming In
 5. Klik **"Send"** untuk mengirim permintaan.
 6. Lihat respons API di bagian bawah.
 
+### 3️⃣ **Menambahkan Header dan Parameter**
+- **Headers**: Digunakan untuk mengirim informasi tambahan seperti `Authorization`, `Content-Type`, dll.
+- **Params**: Menambahkan parameter ke URL API (misalnya, `?id=123` untuk permintaan GET).
+- **Body**: Digunakan dalam metode POST/PUT untuk mengirimkan data (JSON, form-data, dll.).
+
