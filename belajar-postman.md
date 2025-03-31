@@ -36,3 +36,15 @@ Postman adalah alat yang digunakan untuk menguji API (Application Programming In
 - Buat environment baru dan tambahkan variabel (misalnya, `{{base_url}}` untuk menyimpan URL API utama).
 - Gunakan dalam request: `{{base_url}}/endpoint`.
 
+### 5️⃣ **Otomasi dengan Skrip**
+Postman mendukung **JavaScript scripting** untuk melakukan pengujian otomatis.
+- **Pre-request Script**: Dijalankan sebelum request dikirim.
+- **Test Script**: Dijalankan setelah respons diterima.
+
+Contoh script untuk memeriksa status code:
+```javascript
+pm.test("Status code harus 200", function () {
+    pm.response.to.have.status(200);
+});
+```
+
