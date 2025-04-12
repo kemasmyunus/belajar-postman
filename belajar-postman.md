@@ -88,3 +88,38 @@ pm.test("Username sesuai", function () {
 ```
 
 ---
+
+### 6️⃣ Menyimpan & Membagikan Koleksi API
+- Klik **Save** untuk menyimpan request ke dalam **Collections**.
+- Buat struktur folder untuk mengatur API berdasarkan fitur/module.
+- Gunakan fitur **Export/Import** untuk membagikan koleksi ke tim.
+- Atau, gunakan **Postman Workspace** untuk kolaborasi langsung.
+
+---
+
+## 🔹 Mengenal Respons API
+
+### ⚙️ Struktur Respons Umum
+Respons biasanya berbentuk JSON:
+```json
+{
+  "status": "success",
+  "data": {
+    "id": 1,
+    "name": "Example"
+  }
+}
+```
+
+### 🧾 Status Code HTTP Umum
+| Kode | Arti                     |
+|------|--------------------------|
+| 200  | OK – Request berhasil    |
+| 201  | Created – Data berhasil dibuat |
+| 400  | Bad Request – Ada kesalahan input |
+| 401  | Unauthorized – Butuh autentikasi |
+| 403  | Forbidden – Tidak diizinkan |
+| 404  | Not Found – Resource tidak ditemukan |
+| 500  | Internal Server Error – Masalah di server |
+
+---
