@@ -14,3 +14,25 @@
 - 👥 **Kolaborasi Tim** – Mudah berbagi koleksi API dengan tim lewat fitur workspace dan export/import.
 
 ---
+
+## 🔹 Cara Menggunakan Postman
+
+### 1️⃣ Menginstal Postman
+1. Buka [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+2. Pilih sesuai sistem operasi: **Windows**, **macOS**, atau **Linux**.
+3. Instal dan buka aplikasi Postman.
+
+---
+
+### 2️⃣ Menjalankan Request API
+1. Klik tombol **"New"** → **Request**.
+2. Pilih metode HTTP: `GET`, `POST`, `PUT`, `DELETE`, dll.
+3. Masukkan URL API yang ingin diuji.
+4. Tambahkan:
+   - **Headers**: Misalnya `Content-Type`, `Authorization`, dsb.
+   - **Params**: Untuk parameter query seperti `?id=123`.
+   - **Body**: Untuk data JSON atau form (khusus POST/PUT/PATCH).
+5. Klik **"Send"** untuk mengirim request.
+6. Lihat respons di bagian bawah, lengkap dengan status, waktu, dan data.
+
+---
