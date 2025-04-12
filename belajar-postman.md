@@ -123,3 +123,14 @@ Respons biasanya berbentuk JSON:
 | 500  | Internal Server Error – Masalah di server |
 
 ---
+
+## 🔹 Tips Tambahan
+- 🧪 Gunakan **Collection Runner** untuk menguji banyak request sekaligus.
+- 🔑 Simpan token login menggunakan **variable global/environment**.
+- 📚 Dokumentasi API bisa di-*import* dari file OpenAPI/Swagger.
+- 🧠 Tambahkan **assertions** di test script untuk memastikan API sesuai ekspektasi.
+
+---
+
+## 🔹 Kesimpulan
+Postman sangat powerful untuk menguji dan memahami cara kerja API. Baik untuk pemula maupun profesional, Postman menawarkan fitur lengkap mulai dari pengujian manual, otomatisasi, hingga kolaborasi tim.
