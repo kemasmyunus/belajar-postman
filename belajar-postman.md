@@ -36,3 +36,33 @@
 6. Lihat respons di bagian bawah, lengkap dengan status, waktu, dan data.
 
 ---
+
+### 3️⃣ Menambahkan Headers, Params, dan Body
+- **Headers**: Informasi tambahan, contoh:
+  - `Authorization: Bearer <token>`
+  - `Content-Type: application/json`
+- **Params (Query Parameters)**:
+  - Tambahkan di tab *Params* → key-value akan otomatis muncul di URL.
+  - Contoh: `GET https://api.example.com/users?id=5`
+- **Body**: Diisi untuk `POST`, `PUT`, atau `PATCH` request.
+  - Pilih format: `raw` → `JSON`, `form-data`, `x-www-form-urlencoded`.
+
+Contoh isi body JSON:
+```json
+{
+  "username": "pachanpanatto",
+  "email": "user@example.com"
+}
+```
+
+---
+
+### 4️⃣ Menggunakan Environment Variables
+Gunakan environment untuk menyimpan nilai yang dapat digunakan ulang:
+1. Klik ⚙️ **"Manage Environments"**.
+2. Buat environment baru → isi nama dan variabel:
+   - Misalnya: `base_url = https://api.example.com`
+3. Dalam request, gunakan dengan kurung kurawal ganda:
+   - `{{base_url}}/users`
+
+---
