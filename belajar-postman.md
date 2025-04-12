@@ -66,3 +66,25 @@ Gunakan environment untuk menyimpan nilai yang dapat digunakan ulang:
    - `{{base_url}}/users`
 
 ---
+
+### 5️⃣ Otomasi dengan Skrip
+Postman menyediakan dua jenis skrip menggunakan JavaScript:
+- **Pre-request Script** – Dijalankan sebelum request dikirim.
+- **Test Script** – Dijalankan setelah menerima respons.
+
+Contoh skrip test untuk cek status code:
+```javascript
+pm.test("Status code harus 200", function () {
+    pm.response.to.have.status(200);
+});
+```
+
+Contoh cek isi body JSON:
+```javascript
+pm.test("Username sesuai", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.username).to.eql("pachanpanatto");
+});
+```
+
+---
