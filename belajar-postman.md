@@ -18,9 +18,9 @@
 ## 🔹 Cara Menggunakan Postman
 
 ### 1️⃣ Menginstal Postman
-1. Buka [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+1. Unduh dari situs resmi: [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 2. Pilih sesuai sistem operasi: **Windows**, **macOS**, atau **Linux**.
-3. Instal dan buka aplikasi Postman.
+3. Instal dan jalankan aplikasinya.
 
 ---
 
