@@ -25,15 +25,15 @@
 ---
 
 ### 2️⃣ Menjalankan Request API
-1. Klik tombol **"New"** → **Request**.
-2. Pilih metode HTTP: `GET`, `POST`, `PUT`, `DELETE`, dll.
+1. Klik **"New"** → pilih **Request**.
+2. Pilih metode HTTP (GET, POST, PUT, DELETE, dll.).
 3. Masukkan URL API yang ingin diuji.
 4. Tambahkan:
-   - **Headers**: Misalnya `Content-Type`, `Authorization`, dsb.
-   - **Params**: Untuk parameter query seperti `?id=123`.
-   - **Body**: Untuk data JSON atau form (khusus POST/PUT/PATCH).
-5. Klik **"Send"** untuk mengirim request.
-6. Lihat respons di bagian bawah, lengkap dengan status, waktu, dan data.
+   - **Params** untuk query string (`?id=123`)
+   - **Headers** seperti `Authorization`, `Content-Type`
+   - **Body** (khusus POST/PUT)
+5. Klik tombol **"Send"**.
+6. Lihat hasil respons di bawah (status, body, waktu respon, dll).
 
 ---
 
