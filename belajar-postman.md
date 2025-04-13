@@ -6,12 +6,12 @@
 ---
 
 ## 🔹 Mengapa Menggunakan Postman?
-- ✅ **Antarmuka yang mudah digunakan** – Cocok untuk pemula maupun profesional.
-- 🔁 **Mendukung berbagai metode HTTP** – Seperti GET, POST, PUT, PATCH, DELETE.
-- 📁 **Menyimpan dan mengelola request** – Bisa membuat struktur koleksi API untuk proyek.
-- 🌐 **Environment Variables** – Bisa pakai variabel untuk berpindah antar lingkungan (dev, staging, production).
-- 🤖 **Otomasi dan Skrip Pengujian** – Gunakan JavaScript untuk validasi otomatis hasil respons API.
-- 👥 **Kolaborasi Tim** – Mudah berbagi koleksi API dengan tim lewat fitur workspace dan export/import.
+- ✅ **Antarmuka ramah pengguna** – Mudah digunakan, bahkan untuk pemula.
+- 🔁 **Mendukung berbagai metode HTTP** – GET, POST, PUT, PATCH, DELETE, dll.
+- 📁 **Menyimpan dan mengelola request** – Membuat struktur API yang terorganisir.
+- 🌐 **Environment Variables** – Mengelola variabel untuk berbagai lingkungan (dev, staging, production).
+- 🤖 **Otomasi dan Pengujian API** – Jalankan skrip untuk validasi otomatis.
+- 👥 **Kolaborasi Tim** – Dukungan fitur berbagi koleksi dan workspace tim.
 
 ---
 
