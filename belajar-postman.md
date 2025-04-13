@@ -1,7 +1,7 @@
 # 📌 Panduan Dasar Postman
 
 ## 🔹 Apa Itu Postman?
-**Postman** adalah alat bantu (tool) untuk menguji *API* (Application Programming Interface). Dengan Postman, kita bisa mengirim berbagai jenis permintaan (*request*) ke server dan melihat responsnya tanpa harus menulis kode program terlebih dahulu.
+**Postman** adalah alat bantu (tool) untuk menguji API (Application Programming Interface). Dengan Postman, kamu dapat mengirim berbagai jenis permintaan ke server dan melihat responsnya, tanpa harus menulis kode program terlebih dahulu. Cocok untuk pengembang backend, frontend, maupun penguji (tester).
 
 ---
 
