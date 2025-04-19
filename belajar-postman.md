@@ -20,3 +20,13 @@ Postman adalah aplikasi yang digunakan untuk menguji API (Application Programmin
 - Dapat digunakan untuk kerja tim secara kolaboratif.
 
 ---
+
+## Cara Menggunakan Postman
+
+### 1. Menginstal Postman
+
+1. Kunjungi situs: [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+2. Pilih sistem operasi (Windows, macOS, atau Linux).
+3. Unduh dan pasang aplikasinya.
+
+---
