@@ -100,3 +100,56 @@ pm.test("Username sesuai", function () {
 ```
 
 ---
+
+### 6. Menyimpan dan Berbagi Koleksi API
+
+- Gunakan tombol "Save" untuk menyimpan request ke dalam Collections.
+- Buat folder untuk mengelompokkan API berdasarkan fitur.
+- Bisa diekspor dan dibagikan ke orang lain.
+- Gunakan fitur Workspace untuk kerja tim.
+
+---
+
+## Mengenal Respons API
+
+### Format Respons
+
+Biasanya server mengirim respons dalam format JSON:
+```json
+{
+  "status": "success",
+  "data": {
+    "id": 1,
+    "name": "Example"
+  }
+}
+```
+
+### Kode Status HTTP yang Umum
+
+| Kode | Arti                        |
+|------|-----------------------------|
+| 200  | OK, permintaan berhasil     |
+| 201  | Created, data berhasil dibuat |
+| 400  | Bad Request, input salah    |
+| 401  | Unauthorized, perlu login   |
+| 403  | Forbidden, akses ditolak    |
+| 404  | Not Found, data tidak ditemukan |
+| 500  | Internal Server Error       |
+
+---
+
+## Tips Tambahan
+
+- Gunakan Collection Runner untuk mengetes banyak request sekaligus.
+- Simpan token login ke dalam variabel agar lebih praktis.
+- Bisa impor dokumentasi API dari file OpenAPI/Swagger.
+- Tambahkan test di skrip untuk memastikan hasil sesuai harapan.
+
+---
+
+## Kesimpulan
+
+Postman adalah alat yang sangat membantu dalam belajar dan menguji API. Tidak perlu jadi ahli untuk mulai menggunakannya, karena fitur-fiturnya mendukung semua level pengguna — dari pemula hingga profesional.
+
+---
