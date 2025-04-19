@@ -44,3 +44,59 @@ Postman adalah aplikasi yang digunakan untuk menguji API (Application Programmin
 6. Lihat respons yang muncul di bagian bawah.
 
 ---
+
+### 3. Mengatur Headers, Params, dan Body
+
+- **Headers**: Informasi tambahan untuk server.
+  - Contoh: 
+    - `Authorization: Bearer <token>`
+    - `Content-Type: application/json`
+
+- **Params (Query Parameters)**: Data di URL.
+  - Contoh: `https://api.example.com/users?id=5`
+
+- **Body**: Isi data yang dikirim, biasanya untuk POST, PUT, PATCH.
+  - Pilih tab "Body" lalu format `raw` dan tipe `JSON`.
+
+Contoh:
+```json
+{
+  "username": "pachanpanatto",
+  "email": "user@example.com"
+}
+```
+
+---
+
+### 4. Menggunakan Environment Variable
+
+1. Klik ikon roda gigi lalu pilih "Manage Environments".
+2. Buat environment baru dan tambahkan variabel.
+   - Contoh: `base_url = https://api.example.com`
+3. Gunakan di URL seperti ini: `{{base_url}}/users`
+
+---
+
+### 5. Menambahkan Skrip Otomatis
+
+Postman mendukung skrip menggunakan JavaScript:
+
+- **Pre-request Script**: dijalankan sebelum request dikirim.
+- **Test Script**: dijalankan setelah mendapat respons.
+
+Contoh test status:
+```javascript
+pm.test("Status code harus 200", function () {
+    pm.response.to.have.status(200);
+});
+```
+
+Contoh test isi body:
+```javascript
+pm.test("Username sesuai", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.username).to.eql("pachanpanatto");
+});
+```
+
+---
