@@ -56,3 +56,28 @@ Jika kamu punya file dokumentasi API dalam format seperti **OpenAPI**, **Swagger
 Ini sangat membantu untuk menghemat waktu karena tidak perlu menulis request satu per satu.
 
 ---
+
+## 11. Mock Server
+
+**Mock Server** memungkinkan kamu membuat simulasi API tanpa backend asli. Ini berguna jika tim frontend ingin mulai kerja meski backend belum selesai.
+
+### Cara Membuat:
+1. Klik **New** → **Mock Server**.
+2. Pilih koleksi request yang ingin dimock.
+3. Tentukan respons yang ingin diberikan.
+4. Mock server akan punya URL sendiri.
+
+---
+
+## 12. Best Practices (Praktik Terbaik)
+
+Berikut beberapa tips supaya penggunaan Postman makin rapi dan efisien:
+
+- Gunakan **Collections** untuk mengelompokkan API berdasarkan fitur.
+- Gunakan **Environment Variables** agar mudah berpindah antara dev/staging/production.
+- Simpan **token login** ke variabel agar tidak diketik ulang.
+- Tambahkan **Test Script** untuk setiap request, meskipun sederhana (misalnya cek status 200).
+- Beri nama request dan folder secara jelas, misalnya `GET - List Users`, `POST - Create User`, dll.
+- Gunakan **description** untuk menjelaskan tujuan request.
+
+---
