@@ -81,3 +81,38 @@ Berikut beberapa tips supaya penggunaan Postman makin rapi dan efisien:
 - Gunakan **description** untuk menjelaskan tujuan request.
 
 ---
+
+## 13. Praktik Simulasi
+
+### Simulasi 1: GET Request ke API Publik
+
+URL: `https://jsonplaceholder.typicode.com/posts/1`
+
+Langkah:
+1. Pilih metode **GET**.
+2. Masukkan URL di atas.
+3. Klik **Send**.
+4. Lihat respons JSON berisi data post.
+
+### Simulasi 2: POST Request
+
+URL: `https://jsonplaceholder.typicode.com/posts`
+
+Body:
+```json
+{
+  "title": "Belajar Postman",
+  "body": "Ini adalah percobaan POST",
+  "userId": 1
+}
+```
+
+Langkah:
+1. Pilih metode **POST**.
+2. Masukkan URL.
+3. Di tab Body → pilih `raw` → `JSON`.
+4. Tempelkan isi body di atas.
+5. Klik **Send**.
+6. Lihat respons, seharusnya ada data baru dengan `id`.
+
+---
