@@ -29,3 +29,30 @@ Kamu bisa mengatur berapa kali request dijalankan (loop) dan bisa juga menjalank
 4. Hasilnya bisa dikirim ke email atau dashboard.
 
 ---
+
+## 9. Postman Console
+
+Seperti "Console" di browser, Postman juga punya **Postman Console**.
+
+### Fungsinya:
+- Melihat detail dari request dan response.
+- Debugging ketika ada yang tidak sesuai.
+- Menampilkan hasil dari skrip yang kamu tulis (pakai `console.log()`).
+
+### Cara Mengakses:
+- Klik menu **View > Show Postman Console** atau tekan shortcut `Ctrl + Alt + C`.
+
+---
+
+## 10. Mengimpor API dari File/OpenAPI
+
+Jika kamu punya file dokumentasi API dalam format seperti **OpenAPI**, **Swagger**, atau **Postman Collection**, kamu bisa langsung mengimpornya.
+
+### Caranya:
+1. Klik tombol **Import**.
+2. Pilih file `.json`, `.yaml`, atau dari URL.
+3. Postman akan membuatkan koleksi secara otomatis.
+
+Ini sangat membantu untuk menghemat waktu karena tidak perlu menulis request satu per satu.
+
+---
