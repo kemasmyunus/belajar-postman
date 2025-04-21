@@ -99,3 +99,22 @@ pm.test("Username tidak kosong", function () {
 ```
 
 ---
+
+## 15. Challenge
+
+Coba buat **Collection baru** bernama `User API`.
+
+Isi koleksi itu dengan request berikut:
+
+- `GET /users` → tampilkan semua user
+- `GET /users/1` → tampilkan user pertama
+- `POST /users` → tambah user
+- `PUT /users/1` → ubah data user
+- `DELETE /users/1` → hapus user
+
+Tambahkan:
+- **Test Script** untuk semua request
+- Gunakan **environment variable** bernama `base_url = https://jsonplaceholder.typicode.com`
+- Simpan token atau header umum (jika ada) ke environment
+
+---
