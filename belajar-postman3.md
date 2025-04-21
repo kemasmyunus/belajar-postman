@@ -118,3 +118,13 @@ Tambahkan:
 - Simpan token atau header umum (jika ada) ke environment
 
 ---
+
+## 16. Penutup
+
+Dengan latihan di atas, kamu sudah:
+- Mengerti alur kerja API
+- Bisa mengetes semua jenis permintaan dasar (GET, POST, PUT, DELETE)
+- Menggunakan fitur scripting dan environment di Postman
+- Menyusun koleksi request dengan rapi
+
+---
