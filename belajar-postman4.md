@@ -45,3 +45,13 @@ User Management
 Postman bisa otomatis membuat dokumentasi dari Collection kamu. Pilih tab **View Documentation**, lalu lengkapi deskripsi tiap request.
 
 ---
+
+# 18. Next Step: Belajar API Automation
+
+Kalau sudah lancar manual testing, kamu bisa lanjut belajar:
+
+- **Collection Runner**: Jalankan semua request sekaligus.
+- **Monitor**: Jadwalkan request jalan otomatis (misal: tiap jam atau tiap hari).
+- **Newman**: Jalankan Collection via command line (buat integrasi dengan CI/CD).
+
+---
