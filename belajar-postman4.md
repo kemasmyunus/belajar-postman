@@ -55,3 +55,15 @@ Kalau sudah lancar manual testing, kamu bisa lanjut belajar:
 - **Newman**: Jalankan Collection via command line (buat integrasi dengan CI/CD).
 
 ---
+
+# 19. Kesimpulan Akhir
+
+✅ Kamu sekarang sudah siap:
+
+- **Membangun dan mengetes API** dari nol
+- **Membuat test script sederhana** di Postman
+- **Mengatur environment variable**
+- **Menyusun Collection profesional**
+- **Mempersiapkan diri ke tahap Automation**
+
+---
