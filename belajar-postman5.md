@@ -94,3 +94,13 @@ Kalau mau tes semua sekaligus:
 Hasilnya: Semua request jalan **otomatis berurutan** dan semua test dievaluasi!
 
 ---
+
+# 22. Rangkuman Skill yang Kamu Kuasai
+
+✅ **Setup environment & dynamic variable**  
+✅ **Automated testing per request**  
+✅ **Simpan & gunakan data antar request (chaining)**  
+✅ **Batch testing pakai Collection Runner**  
+✅ **Struktur Collection rapi ala profesional**  
+
+---
