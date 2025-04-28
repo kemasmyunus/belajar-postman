@@ -81,3 +81,16 @@ User Management
 Setiap request disusun **berurutan** sesuai flow real project.
 
 ---
+
+# 21. Bonus: Membuat Collection Test Runner
+
+Kalau mau tes semua sekaligus:
+
+1. Klik **Runner** di Postman.
+2. Pilih Collection kamu (`User API`).
+3. Pilih Environment (`UserManagementEnvironment`).
+4. Klik **Run**.
+
+Hasilnya: Semua request jalan **otomatis berurutan** dan semua test dievaluasi!
+
+---
