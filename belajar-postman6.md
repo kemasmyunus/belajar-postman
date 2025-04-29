@@ -103,3 +103,15 @@ Kamu bisa bikin API dummy sendiri untuk latihan, tanpa server sungguhan.
 4. Gunakan mock URL ini di Collection untuk uji response *tanpa backend beneran*.
 
 ---
+
+# 26. Penutup: Level Profesional
+
+✅ Kamu sudah bisa:
+
+- Simulasi berbagai error (404, 400, 401)
+- Buat test dinamis untuk validasi kondisi error
+- Setup dan tangani *expired token*
+- Buat dan pakai **Mock Server** sebagai pengganti backend asli
+- Integrasi chaining, scripting, dan environment secara **real-world**
+
+---
