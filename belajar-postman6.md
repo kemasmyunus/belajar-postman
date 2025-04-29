@@ -38,3 +38,40 @@ pm.test("Field name dan email seharusnya valid", function () {
 ```
 
 ---
+
+# 24. Simulasi Token Expired & Refresh Token
+
+### A. Simulasi Token Expired
+
+Buat Environment:
+| Variable     | Value               |
+|--------------|---------------------|
+| auth_token   | expired_token_dummy |
+
+Gunakan di Authorization tab → Bearer Token: `{{auth_token}}`
+
+**Test Script** di response:
+```javascript
+pm.test("Cek apakah token expired", function () {
+    let res = pm.response.json();
+    pm.expect(res.message || "").to.include("expired");
+});
+```
+
+---
+
+### B. Refresh Token (Simulasi)
+
+Jika response token expired, kamu bisa otomatis refresh token:
+
+```javascript
+if (pm.response.code === 401 && pm.response.json().message.includes("expired")) {
+    // Simulasi refresh token
+    pm.environment.set("auth_token", "new_dummy_token");
+    console.log("Token expired. Token baru sudah diset.");
+}
+```
+
+Di dunia nyata, kamu akan buat request baru ke endpoint seperti `/auth/refresh`.
+
+---
