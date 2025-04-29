@@ -75,3 +75,31 @@ if (pm.response.code === 401 && pm.response.json().message.includes("expired")) 
 Di dunia nyata, kamu akan buat request baru ke endpoint seperti `/auth/refresh`.
 
 ---
+
+# 25. Bonus: Membuat Mock Server di Postman
+
+Kamu bisa bikin API dummy sendiri untuk latihan, tanpa server sungguhan.
+
+### Langkah:
+
+1. Buka Postman → klik **New** → **Mock Server**
+2. Pilih:
+   - **Create a new collection**
+   - Nama: `Mock User API`
+   - Contoh request:
+     ```
+     GET /users/1
+     {
+       "id": 1,
+       "name": "Pachan Mock",
+       "email": "pachan@mock.com"
+     }
+     ```
+3. Klik Create → Dapat URL mock, misal:  
+   ```
+   https://mock.pachan123.mockapi.io
+   ```
+
+4. Gunakan mock URL ini di Collection untuk uji response *tanpa backend beneran*.
+
+---
