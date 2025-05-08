@@ -73,3 +73,30 @@ pm.test("Status code harus 200", function () {
 ```
 
 ---
+
+# 28. Next Step: Integrasi Otomatisasi (Bonus)
+
+Untuk testing otomatis dan pipeline CI/CD:
+
+### A. Newman – CLI Postman
+
+Install:
+
+```
+npm install -g newman
+```
+
+Jalankan:
+
+```
+newman run nama-collection.json -e environment.json
+```
+
+### B. Integrasi ke GitHub Actions / Jenkins
+
+Bisa gunakan:
+
+* **GitHub Actions** → jalankan test setiap push
+* **Jenkins** → integrasi pipeline test backend
+
+---
