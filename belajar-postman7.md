@@ -100,3 +100,16 @@ Bisa gunakan:
 * **Jenkins** → integrasi pipeline test backend
 
 ---
+
+# 29. Kesimpulan
+
+📌 Kamu sekarang menguasai:
+
+* Dasar API Request di Postman
+* Validasi respons & penanganan error
+* Simulasi kondisi nyata (token expired, error code)
+* Mock server untuk uji coba API
+* Struktur dan best practice penggunaan Postman
+* Otomatisasi dengan Newman
+
+---
