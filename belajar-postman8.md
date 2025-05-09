@@ -88,3 +88,16 @@ pm.test("User harus berhasil dihapus", function () {
 ```
 
 ---
+
+# 31. Simulasi Chaining: CRUD Otomatis
+
+Gabungkan semua request CRUD di satu Collection:
+
+1. **POST** (buat user, simpan ID)
+2. **GET** (cek data user dengan ID tadi)
+3. **PUT** (update user)
+4. **DELETE** (hapus user)
+
+Gunakan `Test Script` dan `pm.environment.set()` untuk menyimpan ID antar-request.
+
+---
