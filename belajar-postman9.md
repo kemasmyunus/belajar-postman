@@ -75,3 +75,34 @@ Pachan2,pachan2@mail.com
 Gunakan `{{name}}` dan `{{email}}` di body → Postman akan jalankan POST untuk setiap baris data.
 
 ---
+
+# 37. Tips Tambahan
+
+✅ Gunakan komentar dan konsisten:
+
+```javascript
+// Simpan ID user
+pm.environment.set("user_id", data.id);
+```
+
+✅ Simpan token hanya jika berhasil login:
+
+```javascript
+if (pm.response.code === 200) {
+    pm.environment.set("token", pm.response.json().token);
+}
+```
+
+✅ Pisahkan **Test** dan **Pre-request Script** agar jelas.
+
+✅ Dokumentasikan Collection (klik Collection → tab Documentation).
+
+---
+
+# 38. Referensi & Pembelajaran Tambahan
+
+* 📚 [Postman Learning Center](https://learning.postman.com/)
+* 🧪 [Postman API Testing Tutorials](https://www.guru99.com/postman-tutorial.html)
+* 📽️ YouTube: Cari "Postman automation testing tutorial"
+
+---
