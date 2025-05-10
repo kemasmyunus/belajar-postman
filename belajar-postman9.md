@@ -56,4 +56,22 @@ pm.test("Response time < 1000ms", function () {
 
 ---
 
+# 36. Advance: Postman Collection Runner
+
+Jalankan semua request di collection secara otomatis:
+
+1. Klik Collection → klik tombol **Runner**
+2. Pilih environment
+3. (Opsional) Import CSV/JSON data untuk **data-driven test**
+
+Contoh CSV:
+
+```csv
+name,email
+Pachan1,pachan1@mail.com
+Pachan2,pachan2@mail.com
+```
+
+Gunakan `{{name}}` dan `{{email}}` di body → Postman akan jalankan POST untuk setiap baris data.
+
 ---
