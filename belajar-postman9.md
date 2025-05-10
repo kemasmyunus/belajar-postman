@@ -106,3 +106,17 @@ if (pm.response.code === 200) {
 * 📽️ YouTube: Cari "Postman automation testing tutorial"
 
 ---
+
+# 39. Penutup Final
+
+🎯 Kamu kini telah mencapai level **intermediate hingga advanced** di Postman, dengan kemampuan:
+
+* Buat dan kelola environment & variable
+* Uji validasi respons & branching logic
+* Tangani token dan error dinamis
+* Simulasi API chaining CRUD
+* Setup Mock Server
+* Gunakan Collection Runner untuk test otomatis
+* Terapkan best practice API testing secara profesional
+
+---
