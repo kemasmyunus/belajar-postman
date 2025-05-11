@@ -100,3 +100,63 @@ postman.setNextRequest(null);
 ```
 
 ---
+
+
+# 42. Export dan Kolaborasi
+
+✅ Export Collection:
+
+* Klik kanan Collection → Export (format `.json`)
+* Bisa dibagikan ke rekan tim atau version control (Git)
+
+✅ Import:
+
+* Klik **Import** → Drop file `.json`
+
+✅ Kolaborasi:
+
+* Gunakan **Postman Team Workspace** (butuh akun)
+* Simpan ke **Postman Cloud** untuk kerja tim realtime
+
+---
+
+# 43. CI/CD dengan GitHub Actions (Dasar)
+
+Buat file `.github/workflows/postman.yml`:
+
+```yaml
+name: API Test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Newman
+        run: npm install -g newman
+      - name: Run Postman Test
+        run: newman run collection.json -e environment.json
+```
+
+---
+
+# 44. Penutup Profesional
+
+📌 **Checklist Skill Postman Profesional**:
+
+| Skill                         | Sudah? |
+| ----------------------------- | ------ |
+| Gunakan Authorization Dynamic | ✅      |
+| Gunakan Environment           | ✅      |
+| Chaining Request              | ✅      |
+| Validasi Status & Body        | ✅      |
+| Simulasi Token Expired        | ✅      |
+| Mock Server                   | ✅      |
+| Collection Runner             | ✅      |
+| Export/Import Koleksi         | ✅      |
+| Integrasi Newman              | ✅      |
+| Setup GitHub Actions          | ✅      |
+
+---
