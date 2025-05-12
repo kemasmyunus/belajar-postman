@@ -133,3 +133,16 @@ app.get("/profile", authMiddleware, (req, res) => {
 * Uji error 401 jika token salah/expired
 
 ---
+
+# 47. Latihan: Buat Koleksi Postman dari API-mu
+
+Tugas latihan:
+
+1. Buat collection lengkap `User CRUD` dan `Auth`
+2. Simpan token dari login dan pakai di `/profile`
+3. Tambahkan validasi:
+
+   * 201 saat POST
+   * 404 saat user tidak ditemukan
+   * 401 saat token tidak valid
+
