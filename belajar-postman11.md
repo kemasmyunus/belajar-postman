@@ -91,3 +91,45 @@ Buat collection `User CRUD`:
 * **DELETE /users/\:id** → hapus user
 
 ---
+
+# 46. Simulasi Login & Token (Tanpa DB)
+
+Tambahkan route sederhana:
+
+```javascript
+// Login
+app.post("/auth/login", (req, res) => {
+    const { email, password } = req.body;
+    if (email === "admin@example.com" && password === "123456") {
+        return res.json({
+            access_token: "dummy-token",
+            refresh_token: "dummy-refresh"
+        });
+    }
+    res.status(401).json({ message: "Unauthorized" });
+});
+
+// Middleware autentikasi
+function authMiddleware(req, res, next) {
+    const auth = req.headers.authorization;
+    if (!auth || !auth.includes("dummy-token")) {
+        return res.status(401).json({ message: "Token invalid or expired" });
+    }
+    next();
+}
+
+// Endpoint private
+app.get("/profile", authMiddleware, (req, res) => {
+    res.json({ name: "Pachanpanatto", role: "admin" });
+});
+```
+
+---
+
+### Sekarang:
+
+* POST `/auth/login` → simpan token ke Postman
+* GET `/profile` → kirim token via Authorization Bearer
+* Uji error 401 jika token salah/expired
+
+---
