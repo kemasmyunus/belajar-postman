@@ -127,3 +127,18 @@ node index.js
 5. **DELETE /users/\:id** → Hapus
 
 ---
+
+# 49. Tambahan: Validasi dengan Mongoose
+
+Perketat model:
+
+```javascript
+const userSchema = new mongoose.Schema({
+    name: { type: String, required: true, minlength: 3 },
+    email: { type: String, required: true, match: /.+\@.+\..+/ }
+});
+```
+
+Coba POST user dengan email tidak valid → akan dapat error 400.
+
+---
