@@ -142,3 +142,21 @@ const userSchema = new mongoose.Schema({
 Coba POST user dengan email tidak valid → akan dapat error 400.
 
 ---
+
+# 50. Arah Selanjutnya
+
+Kamu sekarang sudah punya:
+✅ API backend
+✅ Penyimpanan MongoDB
+✅ Postman untuk uji fungsionalitas
+
+---
+
+## Topik Selanjutnya (Opsional, sesuai minat kamu):
+
+1. 🔐 Autentikasi JWT sungguhan (dengan token terenkripsi)
+2. 🌐 Deploy API ke cloud (Render, Railway, Vercel)
+3. 🧪 Testing otomatis pakai **Jest** atau **Supertest**
+4. 📦 Buat dokumentasi otomatis API (pakai Swagger)
+
+---
