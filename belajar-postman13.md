@@ -146,3 +146,16 @@ Body:
 ✔️ Dapat token baru
 
 ---
+
+# 53. Ringkasan Arsitektur Otentikasi Modern
+
+```
+[Client] → Login → dapat Access Token & Refresh Token
+  |
+  |─> [GET /profile] pakai Access Token (15 menit)
+        |
+        └── Token expired?
+               └─> [POST /auth/refresh] pakai Refresh Token (1 hari)
+```
+
+---
