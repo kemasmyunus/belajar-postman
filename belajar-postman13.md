@@ -159,3 +159,12 @@ Body:
 ```
 
 ---
+
+# 54. Keamanan Tambahan (Opsional)
+
+✅ Gunakan HTTPS saat deploy
+✅ Simpan Refresh Token di httpOnly Cookie (lebih aman)
+✅ Pisahkan Auth di Router khusus (`routes/auth.js`)
+✅ Simpan user di MongoDB dan verifikasi login dari DB
+
+---
