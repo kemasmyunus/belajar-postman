@@ -108,3 +108,41 @@ app.post("/auth/refresh", (req, res) => {
 ```
 
 ---
+
+# 52. Pengujian di Postman
+
+### 1. POST `/auth/login`
+
+Body:
+
+```json
+{
+  "email": "admin@example.com",
+  "password": "123456"
+}
+```
+
+✔️ Simpan `access_token` dan `refresh_token` ke environment
+
+---
+
+### 2. GET `/profile`
+
+Gunakan Authorization → Bearer Token: `{{access_token}}`
+✔️ Dapat data pengguna
+
+---
+
+### 3. POST `/auth/refresh`
+
+Body:
+
+```json
+{
+  "refresh_token": "{{refresh_token}}"
+}
+```
+
+✔️ Dapat token baru
+
+---
