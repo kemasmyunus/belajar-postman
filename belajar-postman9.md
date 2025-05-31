@@ -59,3 +59,25 @@ pm.test("Waktu respons di bawah 1000ms", function () {
 ```
 
 ---
+
+# 36. Lanjutan: Jalankan Collection dengan Runner
+
+Gunakan **Collection Runner** untuk otomatisasi pengujian seluruh request dalam satu collection.
+
+Langkah-langkah:
+
+1. Klik nama Collection → klik tombol **Runner**
+2. Pilih environment yang sesuai
+3. (Opsional) Import file CSV/JSON untuk **data-driven testing**
+
+Contoh CSV:
+
+```csv
+name,email
+Pachan1,pachan1@mail.com
+Pachan2,pachan2@mail.com
+```
+
+Gunakan `{{name}}` dan `{{email}}` di body request. Postman akan menjalankan satu request untuk tiap baris data.
+
+---
