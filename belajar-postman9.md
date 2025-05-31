@@ -34,3 +34,28 @@ if (code === 200) {
 ```
 
 ---
+
+# 35. Validasi Header & Waktu Respons
+
+### A. Validasi Header
+
+Pastikan respons API memiliki header `Content-Type: application/json`.
+
+```javascript
+pm.test("Cek Content-Type adalah JSON", function () {
+    pm.response.to.have.header("Content-Type");
+    pm.expect(pm.response.headers.get("Content-Type")).to.include("application/json");
+});
+```
+
+### B. Validasi Waktu Respons
+
+Uji apakah respons diterima di bawah 1000ms:
+
+```javascript
+pm.test("Waktu respons di bawah 1000ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(1000);
+});
+```
+
+---
