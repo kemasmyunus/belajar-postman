@@ -124,17 +124,3 @@ Biasanya server mengirim respons dalam format JSON:
   }
 }
 ```
-
-### Kode Status HTTP yang Umum
-
-| Kode | Arti                        |
-|------|-----------------------------|
-| 200  | OK, permintaan berhasil     |
-| 201  | Created, data berhasil dibuat |
-| 400  | Bad Request, input salah    |
-| 401  | Unauthorized, perlu login   |
-| 403  | Forbidden, akses ditolak    |
-| 404  | Not Found, data tidak ditemukan |
-| 500  | Internal Server Error       |
-
----
