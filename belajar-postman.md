@@ -138,12 +138,3 @@ Biasanya server mengirim respons dalam format JSON:
 | 500  | Internal Server Error       |
 
 ---
-
-## Tips Tambahan
-
-- Gunakan Collection Runner untuk mengetes banyak request sekaligus.
-- Simpan token login ke dalam variabel agar lebih praktis.
-- Bisa impor dokumentasi API dari file OpenAPI/Swagger.
-- Tambahkan test di skrip untuk memastikan hasil sesuai harapan.
-
----
