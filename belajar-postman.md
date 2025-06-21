@@ -147,9 +147,3 @@ Biasanya server mengirim respons dalam format JSON:
 - Tambahkan test di skrip untuk memastikan hasil sesuai harapan.
 
 ---
-
-## Kesimpulan
-
-Postman adalah alat yang sangat membantu dalam belajar dan menguji API. Tidak perlu jadi ahli untuk mulai menggunakannya, karena fitur-fiturnya mendukung semua level pengguna — dari pemula hingga profesional.
-
----
