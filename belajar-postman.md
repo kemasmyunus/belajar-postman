@@ -100,12 +100,3 @@ pm.test("Username sesuai", function () {
 ```
 
 ---
-
-### 6. Menyimpan dan Berbagi Koleksi API
-
-- Gunakan tombol "Save" untuk menyimpan request ke dalam Collections.
-- Buat folder untuk mengelompokkan API berdasarkan fitur.
-- Bisa diekspor dan dibagikan ke orang lain.
-- Gunakan fitur Workspace untuk kerja tim.
-
----
