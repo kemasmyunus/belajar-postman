@@ -90,13 +90,3 @@ pm.test("Status code harus 200", function () {
     pm.response.to.have.status(200);
 });
 ```
-
-Contoh test isi body:
-```javascript
-pm.test("Username sesuai", function () {
-    var jsonData = pm.response.json();
-    pm.expect(jsonData.username).to.eql("pachanpanatto");
-});
-```
-
----
