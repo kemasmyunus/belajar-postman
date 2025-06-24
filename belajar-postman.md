@@ -109,18 +109,3 @@ pm.test("Username sesuai", function () {
 - Gunakan fitur Workspace untuk kerja tim.
 
 ---
-
-## Mengenal Respons API
-
-### Format Respons
-
-Biasanya server mengirim respons dalam format JSON:
-```json
-{
-  "status": "success",
-  "data": {
-    "id": 1,
-    "name": "Example"
-  }
-}
-```
