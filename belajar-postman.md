@@ -77,16 +77,3 @@ Contoh:
 
 ---
 
-### 5. Menambahkan Skrip Otomatis
-
-Postman mendukung skrip menggunakan JavaScript:
-
-- **Pre-request Script**: dijalankan sebelum request dikirim.
-- **Test Script**: dijalankan setelah mendapat respons.
-
-Contoh test status:
-```javascript
-pm.test("Status code harus 200", function () {
-    pm.response.to.have.status(200);
-});
-```
