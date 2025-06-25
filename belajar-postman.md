@@ -67,13 +67,3 @@ Contoh:
 ```
 
 ---
-
-### 4. Menggunakan Environment Variable
-
-1. Klik ikon roda gigi lalu pilih "Manage Environments".
-2. Buat environment baru dan tambahkan variabel.
-   - Contoh: `base_url = https://api.example.com`
-3. Gunakan di URL seperti ini: `{{base_url}}/users`
-
----
-
