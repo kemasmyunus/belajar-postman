@@ -57,13 +57,3 @@ Postman adalah aplikasi yang digunakan untuk menguji API (Application Programmin
 
 - **Body**: Isi data yang dikirim, biasanya untuk POST, PUT, PATCH.
   - Pilih tab "Body" lalu format `raw` dan tipe `JSON`.
-
-Contoh:
-```json
-{
-  "username": "pachanpanatto",
-  "email": "user@example.com"
-}
-```
-
----
