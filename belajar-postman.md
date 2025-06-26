@@ -44,16 +44,3 @@ Postman adalah aplikasi yang digunakan untuk menguji API (Application Programmin
 6. Lihat respons yang muncul di bagian bawah.
 
 ---
-
-### 3. Mengatur Headers, Params, dan Body
-
-- **Headers**: Informasi tambahan untuk server.
-  - Contoh: 
-    - `Authorization: Bearer <token>`
-    - `Content-Type: application/json`
-
-- **Params (Query Parameters)**: Data di URL.
-  - Contoh: `https://api.example.com/users?id=5`
-
-- **Body**: Isi data yang dikirim, biasanya untuk POST, PUT, PATCH.
-  - Pilih tab "Body" lalu format `raw` dan tipe `JSON`.
