@@ -30,17 +30,3 @@ Postman adalah aplikasi yang digunakan untuk menguji API (Application Programmin
 3. Unduh dan pasang aplikasinya.
 
 ---
-
-### 2. Mengirim Request API
-
-1. Klik tombol "New" lalu pilih "Request".
-2. Pilih metode HTTP seperti GET atau POST.
-3. Masukkan URL API yang ingin diuji.
-4. Tambahkan jika perlu:
-   - Params: data tambahan di URL seperti `?id=123`
-   - Headers: seperti `Authorization`, `Content-Type`
-   - Body: untuk POST atau PUT, biasanya dalam format JSON
-5. Klik "Send".
-6. Lihat respons yang muncul di bagian bawah.
-
----
